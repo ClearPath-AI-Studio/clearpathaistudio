@@ -11,11 +11,11 @@
 
   <style>
     :root {
-      --color-primary: #1F4FD8;   /* ClearPath Blue */
-      --color-secondary: #6FAF9A; /* Sage Guidance */
-      --color-bg: #F5F7FA;        /* Soft Light */
-      --color-text: #1F2937;      /* Deep Charcoal */
-      --color-muted: #6B7280;     /* Quiet Gray */
+      --color-primary: #1F4FD8;
+      --color-secondary: #6FAF9A;
+      --color-bg: #F5F7FA;
+      --color-text: #1F2937;
+      --color-muted: #6B7280;
     }
 
     body {
@@ -28,7 +28,7 @@
       align-items: flex-start;
       min-height: 100vh;
       text-align: center;
-      padding: 16px 16px;
+      padding: 16px;
     }
 
     .container {
@@ -36,12 +36,12 @@
       padding: 8px 0;
     }
 
-  h1 {
-  font-size: 2.2rem;
-  font-weight: 600;
-  margin: 0 0 0.75rem;
-  color: var(--color-primary);
-}
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 600;
+      margin: 0 0 0.75rem;
+      color: var(--color-primary);
+    }
 
     h2 {
       font-size: 1.4rem;
@@ -60,10 +60,23 @@
       text-decoration: none;
       font-weight: 500;
     }
-ul a { line-height: 1.4; }
 
     a:hover {
       text-decoration: underline;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 1rem;
+    }
+
+    li {
+      margin: 0.75rem 0;
+    }
+
+    ul a {
+      line-height: 1.4;
     }
 
     .footer {
@@ -76,12 +89,12 @@ ul a { line-height: 1.4; }
 
 <body>
   <div class="container">
-<img
-  src="clearpath-ai-studio-logo.png"
-  alt="ClearPath AI Studio logo"
-  style="display:block; max-width:540px; margin:0 auto 0.25rem;"
->
 
+    <img
+      src="clearpath-ai-studio-logo.png"
+      alt="ClearPath AI Studio logo"
+      style="display:block; max-width:540px; margin:0 auto 0.25rem;"
+    >
 
     <h1>Learn AI without the overwhelm.</h1>
 
@@ -90,13 +103,12 @@ ul a { line-height: 1.4; }
     </p>
 
     <p style="color: var(--color-muted); font-weight: 500; margin-bottom: 0;">
-  ClearPath AI Studio
-</p>
+      ClearPath AI Studio
+    </p>
 
-<p style="color: var(--color-muted); font-weight: 500; margin-top: 0;">
-  Founded by John Bednarczyk
-</p>
-
+    <p style="color: var(--color-muted); font-weight: 500; margin-top: 0;">
+      Founded by John Bednarczyk
+    </p>
 
     <p>
       ClearPath AI Studio creates beginner-friendly guides and learning resources
@@ -107,20 +119,21 @@ ul a { line-height: 1.4; }
       Whether you’re curious, cautious, or completely new, you’ll find calm explanations
       and practical examples you can use right away.
     </p>
-<section>
-  <h2>About John</h2>
 
-  <p>
-    I’m John Bednarczyk, an educator who focuses on making AI feel understandable,
-    useful, and approachable for everyday people.
-  </p>
+    <section>
+      <h2>About John</h2>
 
-  <p>
-    I believe learning new technology shouldn’t feel intimidating or overwhelming.
-    My work is centered on calm explanations, practical examples, and real-world use
-    cases that meet you where you are — even if you’re just getting started.
-  </p>
-</section>
+      <p>
+        I’m John Bednarczyk, an educator who focuses on making AI feel understandable,
+        useful, and approachable for everyday people.
+      </p>
+
+      <p>
+        I believe learning new technology shouldn’t feel intimidating or overwhelming.
+        My work is centered on calm explanations, practical examples, and real-world use
+        cases that meet you where you are — even if you’re just getting started.
+      </p>
+    </section>
 
     <section>
       <h2>Free Beginner Resources</h2>
@@ -130,23 +143,24 @@ ul a { line-height: 1.4; }
         These short guides are practical, friendly, and free.
       </p>
 
-      <ul style="list-style: none; padding: 0; margin-top: 1rem;">
-        <li style="margin-bottom: 0.75rem;">
-          • <a href="/beginner-prompts.pdf" target="_blank" rel="noopener">
+      <ul>
+        <li>
+          <a href="/beginner-prompts.pdf" target="_blank" rel="noopener">
             10 AI Prompts Every Beginner Should Try Today (PDF)
           </a>
         </li>
+
         <li style="margin-bottom: 1.5rem;">
-  • <a href="/smallbiz-automations.pdf" target="_blank" rel="noopener">
-    10 AI Automations That Save Small Business Owners 5+ Hours a Week (PDF)
-  </a>
-</li>
+          <a href="/smallbiz-automations.pdf" target="_blank" rel="noopener">
+            10 AI Automations That Save Small Business Owners 5+ Hours a Week (PDF)
+          </a>
+        </li>
 
         <li>
-  • <a href="/prompt-patterns.pdf" target="_blank" rel="noopener">
-    The 5 Prompt Patterns Every Beginner Should Know (PDF)
-  </a>
-</li>
+          <a href="/prompt-patterns.pdf" target="_blank" rel="noopener">
+            The 5 Prompt Patterns Every Beginner Should Know (PDF)
+          </a>
+        </li>
       </ul>
 
       <p style="margin-top: 1rem; color: var(--color-muted);">
@@ -161,6 +175,8 @@ ul a { line-height: 1.4; }
   </div>
 </body>
 </html>
+
+
 
 
 
