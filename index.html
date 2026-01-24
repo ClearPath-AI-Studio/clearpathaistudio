@@ -84,12 +84,47 @@ img {
     ul a {
       line-height: 1.4;
     }
+.contact-section {
+  max-width: 720px;
+  margin: 4rem auto 0;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  background-color: var(--color-bg);
+  border-top: 1px solid #e5e7eb;
+}
+
+.contact-section h2 {
+  font-size: 1.75rem;
+  color: var(--color-text);
+  margin-bottom: 1rem;
+}
+
+.contact-section p {
+  color: var(--color-muted);
+  margin-bottom: 1.75rem;
+  line-height: 1.6;
+}
+
+.contact-button {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-button:hover {
+  opacity: 0.9;
+}
 
     .footer {
       margin-top: 2.5rem;
       font-size: 0.9rem;
       color: var(--color-muted);
     }
+    
   </style>
 </head>
 
@@ -179,6 +214,20 @@ img {
         More resources coming soon.
       </p>
     </section>
+<section id="contact" class="contact-section">
+  <h2>Contact Me</h2>
+
+  <p>
+    Have a question, collaboration idea, or want help getting started with AI?
+    I’d love to hear from you.
+  </p>
+
+  <a class="contact-button" href="mailto:john@clearpathaistudio.com">
+    Email Me
+  </a>
+  <a href="#contact">Contact</a>
+
+</section>
 
     <p class="footer">
       © ClearPath AI Studio • clearpathaistudio.com
@@ -187,6 +236,7 @@ img {
   </div>
 </body>
 </html>
+
 
 
 
